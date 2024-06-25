@@ -1,0 +1,41 @@
+{
+  "network": "Mainnet",
+  "chains": {
+    "Ethereum": {
+      "version": "1.1.0",
+      "mode": "locking",
+      "paused": false,
+      "owner": "0x4eDAb5d6caE32C5fBC2891cAf1a2159c40f5FB82",
+      "manager": "0xb948a93827d68a82F6513Ad178964Da487fe2BD9",
+      "token": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+      "transceivers": {
+        "threshold": 1,
+        "wormhole": "0xA1ACC1e6edaB281Febd91E3515093F1DE81F25c0"
+      },
+      "limits": {
+        "outbound": "30000.000000000000000000",
+        "inbound": {
+          "Bsc": "30000.000000000000000000"
+        }
+      }
+    },
+    "Bsc": {
+      "version": "1.1.0",
+      "mode": "burning",
+      "paused": false,
+      "owner": "0x4eDAb5d6caE32C5fBC2891cAf1a2159c40f5FB82",
+      "manager": "0x6981F5621691CBfE3DdD524dE71076b79F0A0278",
+      "token": "0x26c5e01524d2E6280A48F2c50fF6De7e52E9611C",
+      "transceivers": {
+        "threshold": 1,
+        "wormhole": "0xbe3F7e06872E0dF6CD7FF35B7aa4Bb1446DC9986"
+      },
+      "limits": {
+        "outbound": "30000.000000000000000000",
+        "inbound": {
+          "Ethereum": "30000.000000000000000000"
+        }
+      }
+    }
+  }
+}
