@@ -5,7 +5,7 @@
       "version": "1.1.0",
       "mode": "locking",
       "paused": false,
-      "owner": "0xBbbA5De951924F9c990b3B368b87c1CEEB8cf027",
+      "owner": "0x4b4924ac0002bF59e0d764Aea03f4Ce86445081a",
       "manager": "0x5F2BFfb047884c73744b09B37A59041DBC7a020d",
       "token": "0x26869195cE3f3ae1d35c8c003e31a1da15a46827",
       "transceivers": {
@@ -13,9 +13,9 @@
         "wormhole": "0x45b7F7f4A03137769A234ac8A0D0d49a4ca06f8a"
       },
       "limits": {
-        "outbound": "184467440737.095516150000000000",
+        "outbound": "30000.000000000000000000",
         "inbound": {
-          "Bsc": "500.000000000000000000"
+          "Bsc": "30000.000000000000000000"
         }
       }
     },
@@ -31,7 +31,7 @@
         "wormhole": "0x11634c5Eb7Ec2C9B7043ff5c60Eb411CDDb43d64"
       },
       "limits": {
-        "outbound": "184467440737.095516150000000000",
+        "outbound": "30000.000000000000000000",
         "inbound": {
           "Sepolia": "30000.000000000000000000"
         }
